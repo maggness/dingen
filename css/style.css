@@ -1,0 +1,33 @@
+.type {
+  width: 20%;
+}
+
+body {
+  font-size: 2em;
+  font-family: sans-serif;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+  grid-column: 2;
+}
+
+h1 {
+  font-size: 0.6em;
+  grid-column: 2;
+}
+
+.uitleg {
+  font-weight: normal;
+  font-style: italic;
+}
